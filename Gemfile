@@ -2,14 +2,14 @@
 
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-ruby '3.1.2'
+ruby '3.2.0'
 
 # Rails
 gem 'bootsnap', require: false # Reduces boot times through caching; required in config/boot.rb
 gem 'jbuilder'
 gem 'pg', '~> 1.1'
-gem 'puma', '~> 5.0'
-gem 'rails', '~> 7.0.6'
+gem 'puma', '~> 6.0'
+gem 'rails', '~> 7.1'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 # Asset Pipeline and JavaScript
