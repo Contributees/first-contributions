@@ -36,8 +36,9 @@ gem 'omniauth-rails_csrf_protection'
 gem 'devise' # Authentication
 gem 'octokit', '~> 5.0' # Wrapper for the GitHub API
 gem 'pg_search'
-gem 'sidekiq'
-gem 'sidekiq-failures'
+gem "solid_queue"
+gem "mission_control-jobs"
+
 
 # Development and Testing Tools
 group :development, :test do
