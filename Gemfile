@@ -39,7 +39,6 @@ gem 'pg_search'
 gem "solid_queue"
 gem "mission_control-jobs"
 
-
 # Development and Testing Tools
 group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]
